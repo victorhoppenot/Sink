@@ -1,0 +1,18 @@
+import draw
+
+screen = draw.new()
+
+class ball {
+    Value ax;
+    Value ay;
+    Value ax >> Integral >> Value vx;
+    Value ay >> Integral >> Value vy;
+    Value vx >> Integral >> Value x;
+    Value vy >> Integral >> Value y;
+
+    TimeInterval(10) -> screen.drawCircle(x,y,5);
+}
+
+ball.new();
+
+
